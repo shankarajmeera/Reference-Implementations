@@ -748,4 +748,3 @@ Description: Pass sample attack data to get prediction
 """
 label , prob = defense.predict(x_attack[:5])
 print("\nlabel: {} \nprob: {}".format(label, prob))
-
